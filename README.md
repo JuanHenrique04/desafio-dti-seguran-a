@@ -1,4 +1,4 @@
-<img align="center" alt="gif" width="150" src="https://steamuserimages-a.akamaihd.net/ugc/960838399170225866/21D9841F8E03ED30D91A7720388E1E8D3A464FC0/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false">
+<img alt="gif" width="150" src="https://steamuserimages-a.akamaihd.net/ugc/960838399170225866/21D9841F8E03ED30D91A7720388E1E8D3A464FC0/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false">
 
 # Desafio-dti-seguranca
 
@@ -9,7 +9,7 @@
 - **Responsável:** Juan Henrique
 - **Escopo do Teste:** Arquivos PDF fornecidos pela equipe de segurança para teste.
 - **Objetivo:** Acessar arquivos PDF protegidos e capturar a flag
-- **Conclusão:** Flag adquirida: {}
+- **Conclusão:** Flag adquirida: {v0c3_3nc0ntr0u_4_fl4g}
 
 ## 2. Introdução
 - **Descrição do Pentest:** O teste foi solicitado para nivelar o nível de conhecimento.
@@ -20,7 +20,7 @@
 - **Ambiente:** Ambiente de testes controlado em VM (Virtual Box)
 
 ## 4. Metodologia
-- **Fases do Pentest:** [Descrever cada fase em detalhes]
+- **Fases do Pentest:** 
   1. **Coleta dos arquivos PDF protegidos.** 
   2. **Preparação dos arquivos para análise com John the Ripper.**
   3. **Execução da ferramenta John the Ripper para quebra das senhas.**
@@ -46,7 +46,16 @@ john hash1.txt --wordlist=/usr/share/wordlist/rockyou.txt
 ~~~bash
 john hash2.txt --wordlist=/usr/share/wordlist/rockyou.txt
 ~~~
-#### 5.4. Análise dos resultados: Após a exxecução da ferramenta, obtemos a senha dos 2 arquivos PDF protegidos ->
+#### 5.4. Análise dos resultados: Após a exxecução da ferramenta, obtivemos a senha dos 2 arquivos PDF protegidos ->
 Desafio_de_seguranca.pdf = 1234;
+<br>
+<img alt="arq1" width="500" src="https://github.com/user-attachments/assets/81db5c83-ef3a-477c-b7a4-0997bb010bf5">
+
+<br>
 Desafio_de_seguranca_2.pdf = bubblegum.
-  
+<br>
+<img alt="arq2" width="500" src="https://github.com/user-attachments/assets/8f9a95c4-b96d-4334-9d83-e398ea78e500">
+
+## 6. Relatório
+- Senhas simples e comuns em arquivos PDF são vulneráveis e podem ser quebradas facilmente usando ferramentas de força bruta.
+- Arquivos PDF com proteção mais robusta são menos suscetíveis à quebra rápida, mas ainda podem ser vulneráveis a ataques mais sofisticados.

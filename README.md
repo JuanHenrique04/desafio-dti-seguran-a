@@ -2,7 +2,7 @@
 
 # Desafio-dti-seguranca
 
-# Relatório de Teste de Penetração
+# Relatório de Teste do Capture de Flag
 
 ## 1. Resumo Executivo
 - **Data do Teste:** 19/09/2024
@@ -52,6 +52,6 @@ Desafio_de_seguranca_2.pdf = bubblegum.
 <br>
 <img alt="arq2" width="500" src="https://github.com/user-attachments/assets/8f9a95c4-b96d-4334-9d83-e398ea78e500">
 
-## 6. Relatório
+## 6. Conclusão
 - Senhas simples e comuns em arquivos PDF são vulneráveis e podem ser quebradas facilmente usando ferramentas de força bruta.
 - Arquivos PDF com proteção mais robusta são menos suscetíveis à quebra rápida, mas ainda podem ser vulneráveis a ataques mais sofisticados.

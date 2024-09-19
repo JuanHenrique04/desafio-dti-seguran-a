@@ -36,10 +36,12 @@
 ~~~bash
 pdf2john Desafio_de_seguranca.pdf Desafio_de_seguranca_2.pdf > hashs.txt
 ~~~
+![image](https://github.com/user-attachments/assets/96f80f90-a531-454a-b7d2-0b4b0d539f19)
 #### 5.3. Execução da ferramenta John the Ripper para quebra das senhas: Após obter o hash da senha dos arquivos, podemos utilizar o John para realizar um ataque de Brute Force (Força Bruta) para encontrarmos a senha do arquivo. Nesta fase, o ataque de Brute Force usará uma wordlist (arquivo com uma lista de possíveis senhas) e irá transformar e comparar o hash de cada uma para validar qual é a senha.
 ~~~bash
 john hashs.txt --wordlist=/usr/share/wordlists/rockyou.txt
 ~~~
+![image](https://github.com/user-attachments/assets/6663b0e0-59c9-4b50-b7e3-fdcdfaecd3d7)
 #### 5.4. Análise dos resultados: Após a execução da ferramenta, obtivemos a senha dos 2 arquivos PDF protegidos ->
 Desafio_de_seguranca.pdf = 1234;
 <br>

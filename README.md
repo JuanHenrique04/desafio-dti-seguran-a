@@ -31,4 +31,4 @@
      - Consolidação dos resultados
 
 ## 5. Procedimentos
-  #### 5.1. Coleta dos Arquivos:
+  #### 5.1. Coleta dos Arquivos: Os arquivos foram recebidos e inseridos no ambiente de teste (Kali Linux) para utilizar das ferramentas que o sistema disponibiliza.

@@ -2,7 +2,7 @@
 
 # Desafio-dti-seguranca
 
-# Relatório de Teste do Capture de Flag
+# Relatório de Teste do Capture the Flag
 
 ## 1. Resumo Executivo
 - **Data do Teste:** 19/09/2024
